@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "primeval-door-289815-tfstate"
     prefix = "env/prod"
   }
 }
